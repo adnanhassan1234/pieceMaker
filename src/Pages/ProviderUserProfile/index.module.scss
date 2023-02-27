@@ -1,0 +1,65 @@
+.top_header {
+    .left_card {
+        .img_box {
+            width: 100%;
+            height: auto;
+            display: block;
+            text-align: center;
+        }
+        img {
+
+            height: 200px;
+            border-radius: 100px;
+            margin-bottom: 20px;
+        }
+        ul li {
+            position: relative;
+            padding: 10px 0;
+            list-style: none;
+        }
+    }
+    .card_footer_left {
+        .img_box2 {
+            margin: 0;
+            padding: 0;
+            width: 50%;
+            height: auto;
+            display: block;
+
+            img {
+                width: 100%;
+                border-radius: 10px;
+            }
+        }
+    }
+    .right_card {
+        
+            height: 940px;
+       
+        i {
+            font-size: 24px;
+        }
+        .table_image {
+
+            list-style: none;
+            display: flex;
+            .img_box {
+                padding: 0 20px;
+                img {
+                    width: 40px;
+                    height: 40px;
+                    border-radius: 20px;
+                }
+            }
+        }
+        .ellipses {
+            width: 50px;
+            height: 50px;
+            i{
+            color: #DCDCDC;
+            padding-left: 20px;
+            }
+            
+        }
+    }
+}

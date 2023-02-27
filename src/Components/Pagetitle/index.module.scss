@@ -1,0 +1,79 @@
+#header {
+  position: relative;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px 25px 0;
+
+//   .icon {
+//       display: flex;
+//       justify-content: end;
+//   }
+
+//   h2{
+//       margin: 0;
+//   }
+
+  .headerIcons {
+    border: transparent;
+    background: white;
+    width: 40px;
+    height: 39px;
+    border-radius: 7px;
+    text-align: center;
+    padding-top: 9px;
+    font-size: 22px;
+    position: relative;
+    cursor: pointer;
+    list-style: none;
+    margin: 0 10px;
+
+  &::after{
+    position: absolute;
+    content: "2";
+    border-radius: 15px;
+    width: 18px;
+    height: 18px;
+    background: red;
+    color: white;
+    font-weight: 600;
+    margin: -7px;
+    font-size: 10px;
+    top: 4px;
+    right: 4px;
+  }
+
+  }
+  .searcBox{
+    position: relative;
+    width: 400px;
+  
+    input[type="search"]{
+      background-image: url(../../Images/searchIcon.svg) !important;
+      background-repeat: no-repeat;
+      background-size: 23px;
+      height: 44px;
+      line-height: 42px;
+      background-color: #F1F3F6;
+      border-color: #F1F3F6;
+      border-radius: 10px !important;
+      padding:0 20px 0 50px;
+      background-position: 15px  center;
+    }
+  }
+  
+
+//   .headerLeft {
+//       position: relative;
+//   }
+
+//   .headerRight {
+//       position: relative;
+//   }
+
+  .title {}
+
+}
+
+.header {}

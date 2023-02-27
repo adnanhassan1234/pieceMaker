@@ -1,0 +1,41 @@
+.arrow_style{
+    width:50px;
+    font-size: 26px;
+    cursor: pointer;
+}
+
+.record {
+    padding: 20px 0px;
+    border: transparent;
+    background-color: #EFEFEF;
+    border-radius: 15px;
+    display: flex;
+
+    .smile_icon {
+        width: 100%;
+       
+           span {
+       
+               font-size: 60px;
+               color: #8EB26F;
+               margin: 20px;
+              
+           }
+       }
+       .btn_cancel {
+        color: #335A63 !important;
+        background-color: #DADADA !important;
+        width: 50%;
+        border: transparent;
+    
+    
+    }
+    
+    .btn_center {
+        width: 90%;
+        text-align: center;
+        display: flex;
+        padding-left: 50px;
+    }
+   
+}

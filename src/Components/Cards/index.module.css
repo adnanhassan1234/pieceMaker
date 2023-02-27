@@ -1,0 +1,40 @@
+.cards {
+  position: relative;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  padding: 15px;
+}
+
+.cards .iconBox {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 20px;
+  float: left;
+  margin: 0 10px 0 0;
+}
+
+.cards .description {
+  position: relative;
+  overflow: hidden;
+}
+
+.cards h4 {
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.left .iconBox {
+  float: left;
+}
+/*# sourceMappingURL=index.module.css.map */

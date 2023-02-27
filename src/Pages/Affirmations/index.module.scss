@@ -1,0 +1,66 @@
+
+        .table_image {
+            list-style: none;
+            display: flex;
+            position: relative;
+            padding: 7px 10px 7px 50px;
+            white-space: normal;
+
+            .img_box {
+                width: 40px;
+                height: 40px;
+                position: absolute;
+                top: 6;
+                left: 0;
+                border-radius: 50%;
+
+                img {
+                   display: block;
+                   width: 100%;
+                   height: auto;
+                }
+            }
+        }
+        .ellipses {
+            width: 50px;
+            height: 50px;
+            i{
+            color: #DCDCDC;
+            padding-left: 20px;
+            }
+            
+        }
+  .data_table{
+    margin: 17px 0 !important;
+     [class*='rdt_TableCol']{
+    [class*='rdt_TableCol_Sortable']{
+    p{
+        color: #9DA09F;
+        font-weight: 600;
+        font-size: 14px;
+    }
+    
+  }
+  [class*='rdt_TableCell']{
+    flex: 0 0 auto !important;
+  }
+} 
+}
+.create_affirmation_bg{
+    border: 1px solid #cacaca;
+    border-radius: 15px;
+    background-color: white;
+    margin: 0px 21px;
+    height: 780px;
+    position: relative;
+    padding: 40px;
+   
+.btn_bottom{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    bottom: 60px;
+}
+}
+

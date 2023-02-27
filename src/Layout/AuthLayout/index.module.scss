@@ -1,0 +1,55 @@
+.login{
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  background: #fff;
+
+  .loginholder{
+    min-height: 100vh;
+    padding: 20px 100px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+    &:before{
+      position: absolute;
+      content: "";
+      width: 1000px;
+      height: 160%;
+      border-radius: 50px;
+      box-shadow: 0 0 50px -15px rgba(0, 0, 0, 0.3);
+      top: -100px;
+      transform: rotate(-17deg);
+      right: -500px;
+    }
+
+    .rightCol{
+      width: 500px;
+      float: right;
+    }
+
+    .leftCol{
+      overflow: hidden;
+      flex: 0 0 calc(100% - 500px);
+    }
+  }
+
+  .imgBox{
+    max-width: 940px;
+    margin: 0 auto;
+
+    img{
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+  }
+}
+
+.fromHolder{
+  border-radius: 10px;
+  padding: 50px 0 50px 150px;
+  position: relative;
+}

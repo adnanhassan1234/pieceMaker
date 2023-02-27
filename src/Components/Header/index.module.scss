@@ -1,0 +1,58 @@
+#header {
+    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+
+    .icon {
+        display: flex;
+        justify-content: end;
+    }
+
+    .headerIcons {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+
+
+        li {
+            padding: 6px;
+        }
+
+        a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            text-decoration: none;
+            position: relative;
+
+            &:hover {
+                background: #8EB26F;
+                color: #fff !important;
+            }
+        }
+
+
+    }
+
+    .headerLeft {
+        position: relative;
+    }
+
+    .headerRight {
+        position: relative;
+    }
+
+    .title {}
+
+}
+
+.header {}

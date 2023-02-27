@@ -1,0 +1,14 @@
+.profile_img {
+    margin-bottom: 30px;
+    display: flex;
+    & span{
+        color: rgba(0, 0, 0, 0.5);;
+    }
+    .img_box{
+        img{
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+    }   
+}
