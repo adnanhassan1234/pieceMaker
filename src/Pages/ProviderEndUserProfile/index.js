@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import PageTitle from "../../Components/Pagetitle";
 import {Col, Row, Card, Tabs, Tab, Button} from "react-bootstrap";
 import ProfileInfo from "../../Components/ProfileInfo";
+import { useLocation } from "react-router-dom";
 import {
     Chart as ChartJS,
     CategoryScale,
@@ -293,6 +294,16 @@ const data = {
 };
 
 const ProviderEndUserProfile = () => {
+
+    let location = useLocation();
+
+ const [user , setUser] = useState(location.state?.row);      
+
+
+ useEffect(() => {
+    console.log("~ EditComponent ~ user:", user);
+  }, [user]);    // close get row data code
+
     return(
         <>
          <PageTitle title={'User'} />
@@ -302,7 +313,7 @@ const ProviderEndUserProfile = () => {
                     <Col md={3}>
                         <Card>
                             <Card.Body>
-                                <ProfileInfo />
+                                <ProfileInfo user={user} />
                             </Card.Body>
                         </Card>
                     </Col>
